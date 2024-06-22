@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>POLSKIE KABARETY</title>
+    <style>
+        body {
+            background-color: #00FFFF;
+            color: #FF00FF;
+            font-family: Comic Sans MS, cursive, sans-serif;
+        }
+        h1 {
+            color: #FF0000;
+            text-align: center;
+            font-size: 48px;
+        }
+        h2 {
+            color: #0000FF;
+            font-size: 36px;
+        }
+        .slide {
+            border: 5px dotted #FFFF00;
+            margin: 20px;
+            padding: 10px;
+            background-color: #FFFFFF;
+        }
+        .scrolling-text {
+            font-size: 24px;
+            color: #00FF00;
+        }
+        marquee {
+            font-size: 20px;
+            color: #FF00FF;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+        }
+        .dancing-clown {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>POLSKIE KABARETY</h1>
+    
+    <div class="slide">
+        <h2>Wprowadzenie</h2>
+        <p>Kabarety w Polsce to coś.</p>
+        <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" alt="horse">
+    </div>
+
+    <div class="slide">
+        <h2>Historia</h2>
+        <marquee>Historia kabaretu zaczyna się w starożytnej Grecji, ale to Polska jest jego sercem.</marquee>
+        <img src="https://media.giphy.com/media/l4Ep8VZQQwP7ctDwc/giphy.gif" alt="acropolis">
+    </div>
+
+    <div class="slide">
+        <h2>Słynne Kabarety</h2>
+        <p>W Polsce są trzy rodzaje kabaretów: Czerwony, Zielony, i Niebieski.</p>
+        <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="cat">
+    </div>
+
+    <div class="slide">
+        <h2>Znani Artyści</h2>
+        <p>Jan Kowalski, Maria Nowak, Piotr Smith.</p>
+        <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" alt="desert">
+        <img class="dancing-clown" src="https://media.giphy.com/media/3o7btNRTgEpXcQFFyg/giphy.gif" alt="dancing clown">
+    </div>
+
+    <div class="slide">
+        <h2>Najważniejsze Wydarzenia</h2>
+        <p>Kabaret - święto śmiechu, który jest kwadratowy.</p>
+        <img src="https://media.giphy.com/media/5xtDarnyiWi2Gh8TI6Y/giphy.gif" alt="random images">
+    </div>
+
+    <div class="slide">
+        <h2>Podsumowanie</h2>
+        <p>Kabarety to rzecz. Kabarety są fajne. Koniec.</p>
+        <img src="https://media.giphy.com/media/xT0GqssRweIhlz209i/giphy.gif" alt="rainbow">
+        <p class="scrolling-text">🎺🎆</p>
+    </div>
+</body>
+</html>
