@@ -9,7 +9,6 @@
             font-family: Comic Sans MS, cursive, sans-serif;
         }
         h1 {
-            color: #FF0000;
             text-align: center;
             font-size: 48px;
         }
@@ -39,10 +38,48 @@
             width: 100px;
             height: 100px;
         }
+        .rainbow-text span {
+            color: red;
+        }
+        .rainbow-text span:nth-child(2) {
+            color: orange;
+        }
+        .rainbow-text span:nth-child(3) {
+            color: yellow;
+        }
+        .rainbow-text span:nth-child(4) {
+            color: green;
+        }
+        .rainbow-text span:nth-child(5) {
+            color: blue;
+        }
+        .rainbow-text span:nth-child(6) {
+            color: indigo;
+        }
+        .rainbow-text span:nth-child(7) {
+            color: violet;
+        }
+        .multi-font {
+            font-size: 24px;
+        }
+        .multi-font span:nth-child(1) {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .multi-font span:nth-child(2) {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .multi-font span:nth-child(3) {
+            font-family: Arial, sans-serif;
+        }
     </style>
 </head>
 <body>
-    <h1>POLSKIE KABARETY</h1>
+    <h1>
+        <span class="rainbow-text">
+            <span>P</span><span>O</span><span>L</span><span>S</span><span>K</span><span>I</span><span>E</span>
+            <span>K</span><span>A</span><span>B</span><span>A</span><span>R</span><span>E</span><span>T</span><span>Y</span>
+        </span>
+    </h1>
     
     <div class="slide">
         <h2>Wprowadzenie</h2>
@@ -65,6 +102,9 @@
     <div class="slide">
         <h2>Znani Artyści</h2>
         <p>Jan Kowalski, Maria Nowak, Piotr Smith.</p>
+        <p class="multi-font">
+            <span>K</span><span>a</span><span>b</span><span>a</span><span>r</span><span>e</span><span>t</span>
+        </p>
         <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" alt="desert">
         <img class="dancing-clown" src="https://media.giphy.com/media/3o7btNRTgEpXcQFFyg/giphy.gif" alt="dancing clown">
     </div>
